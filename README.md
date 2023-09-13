@@ -89,11 +89,20 @@ This GitHub provides getting started guides for Makerpad Pro.
      
      
 ### 2. Installing Libraries
-   - Download [library zip file]() provided here in github.
-   - Extract and copy files obtain in previous step inside your Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
+   - Download [library zip file](https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/libraries.zip) provided here in github.
+   - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
 
      <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
      
+   - Above library folder contains two files **TFT_eSPI** and **FT6236** with pre-configured settings for Makerpad Pro
+     
+   - Along with this you will also have to install **LovyanGFX Library _version 0.3.8_** into arduino, steps shown in below image:
+     
+     <img src= "https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/gfx_lib_install.gif" />
+     
+   - Make sure you have install above mentioned all libraries for successful compilation of demo examples code provided in GitHub for Makerpad Pro.
+
+
 ### 3. Testing First Code
    - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes]() in github which you can download and try. 
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESP32 of Makerpad Pro. Make sure to _press Boot button_ to begin upload process (in terminal you see message -> Connecting....____ ) as shown in below image.
