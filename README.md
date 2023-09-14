@@ -10,7 +10,7 @@ This GitHub provides getting started guides for Makerpad Pro.
 - Onboard micro SD card storage support for Data logging
 - Buzzer for adding audio alert for project
 - Type C interface for programming/power 
-- Optional GPIO pins breakout for interfacing additional peripherals if camera not used
+- GPIO pins breakout for interfacing additional peripherals if camera not used
 - Boot and Reset Button 
 - Open source LVGL is supported for designing rich GUI for embedded applications.
   
@@ -38,36 +38,69 @@ This GitHub provides getting started guides for Makerpad Pro.
 - (5) Power Status LED
 - (6) Type C 
 - (7) TF card slot
-- (8) GPIOs breakout
+- (8) GPIOs breakout*
 - (9) Buzzer
 - (10) ESP32-WROVER-B module
-  
+
+***Note:** Use only one camera or breakout GPIOs pin at a time.
+
 ### Interfacing Details :
-- Display interfacing with ESP32
+- Camera (OV2640) interfacing with ESP32
+    | ESP32 | Camera | Function |
+    |---|---|---|
+    |  |  | |
+    | 
+  
+- SDcard interfacing with ESP32
     | ESP32 | Display | Function |
     |---|---|---|
-    | IO12 | LCD_CLK | Clock pin of SPI interface for Display|
-    | IO11 | LCD_DIN | MOSI (Master OUT Slave IN) pin of SPI interface|
-    | IO10 | LCD_CS | Chip Select pin of SPI interface|
-    | IO13 | LCD_DC| Data/Command (MISO) pin of SPI interface|
-    | IO14 | LCD_RST | Display Reset pin |
-    | IO5  | BL | Backlight of display|
-
-- ESP32 and FT6236 Touch controller interfacing
+    | IO14 | CLK | SPI Clock pin for SDcard |
+    | IO13 | MOSI | MOSI (Master OUT Slave IN) pin of SPI interface for SDcard |
+    | IO12 | MISO | MISO (Master IN Slave OUT) pin of SPI interface for SDcard |
+    | IO4 | CS | SPI Chip Select pin for SDcard | 
+    
+- Display (ILI9488) interfacing with ESP32
+    | ESP32 | Display | Function |
+    |---|---|---|
+    | IO14 | CLK | SPI Clock pin for Display |
+    | IO13 | MOSI | MOSI (Master OUT Slave IN) pin of SPI interface for Display |
+    | IO12 | MISO | MISO (Master IN Slave OUT) pin of SPI interface for Display |
+    | IO15 | CS | SPI Chip Select pin for Display | 
+    | IO26 | RST | Display Reset pin |
+    | IO33 | D/C | Data/Command pin of Display |
+    | -    | BL | Direct supply to Backlight of display|
+  
+- ESP32 and Touch (FT6236) controller interfacing
     | ESP32| FT6236 Touch | Function |
     |---|---|---|
     | IO26 | SDA | Serial Data pin of I2C communication |
     | IO27 | SCL | Serial Clock of I2C communication |
   
-- Buttons, Buzzer and LED Interfacing with ESP32
+- Buttons and Buzzer Interfacing with ESP32
     | ESP32 | Hardware | Function |
     |---|---|---|
-    |IO0 | BOOT |Boot button |
-    |IO7 | SCAN | Scan Button |
+    |IO2 | Buzzer | HIGH - Turn ON, LOW - Turn OFF |
+    |IO0 | BOOT | Boot button |
+  
+- GPIOs Breakout Pins (only when Camera not used)
+  
+  <img src="https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/GPIO_pin_Breakout.png" width="356" height="161">
+  
+    | ESP32 | Function |
+    |---|---|
+    |3V3 | 3.3V Positive Supply | 
+    |GND | Ground Supply Pin |
+    |5V  | 5V Positive Supply | 
+    |IO5 |  |
+    |IO18 | | 
+    |IO19 | |
+    |IO21 | |
+    |IO23 | |
+    |IO22 | |
+    |IO34 | |
   
   
    
-
 ### 1. Configure and Setup Development Environment
    - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. We have use Arduino IDE 1.8.19
    - Once installation done will add ESP32 board support into IDE, for this first you need to add below link into preference:
