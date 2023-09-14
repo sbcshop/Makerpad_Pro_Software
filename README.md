@@ -163,6 +163,7 @@ This GitHub provides getting started guides for Makerpad Pro.
    - [Example 1](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/BuzzerDemo) : Simple Buzzer test code
    - [Example 2](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/Demo_3D_cube): Display Object demo code working with TFT_eSPI graphics library.
    - [Example 3](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/Demo_ClickPhoto) : Click Photos Demo code to test camera, touch and SD card combine.
+   - [Example 4](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/paintApp) : Try out Simple Paint App on Makerpad Pro
    - and [Many more...](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples)
 
    Now you are ready to try out your own codes, **_Happy Coding!_**
