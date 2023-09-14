@@ -103,7 +103,7 @@ This GitHub provides getting started guides for Makerpad Pro.
 
   <img src="https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/GPIO_pin_Breakout2.png" width="638" height="309">
   
-    | ESP32 | Function |
+    | Breakout Pins | Function |
     |---|---|
     |3V3 | 3.3V Positive Supply | 
     |GND | Ground Supply Pin |
