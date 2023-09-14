@@ -42,7 +42,7 @@ This GitHub provides getting started guides for Makerpad Pro.
 - (9) Buzzer
 - (10) ESP32-WROVER-B module
 
-***Note:** Use only one camera or breakout GPIOs pin at a time.
+***Note:** Use only camera or breakout GPIOs pin at a time.
 
 ### Interfacing Details :
 - Camera (OV2640) interfacing with ESP32
@@ -97,7 +97,7 @@ This GitHub provides getting started guides for Makerpad Pro.
     |IO2 | Buzzer | HIGH - Turn ON, LOW - Turn OFF |
     |IO0 | BOOT | Boot button |
   
-- GPIOs Breakout Pins (only when Camera not used)
+- GPIOs Breakout Pins
   
   <img src="https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/GPIO_pin_Breakout.png" width="356" height="161">
 
@@ -115,8 +115,6 @@ This GitHub provides getting started guides for Makerpad Pro.
     |IO23 | GPIO23, VSPID, HS1_STROBE |
     |IO22 | GPIO22, VSPIWP, U0RTS, EMAC_TXD1 |
     |IO34 | GPIO34, ADC1_CH6, RTC_GPIO4  |
-    
-    ***NOTE:** GPIO breakout can only be used when Camera not connected.
   
    
 ### 1. Configure and Setup Development Environment
