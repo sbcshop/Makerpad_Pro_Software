@@ -153,7 +153,7 @@ This GitHub provides getting started guides for Makerpad Pro.
    Now you are ready to try out your own codes, **_Happy Coding!_**
    
 ## Resources
-  * [Schematic](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Design%20Data/Sch_Scangenie.pdf)
+  * [Schematic](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Design%20Data/Sch%20Makerpad%20Pro.pdf)
   * [Hardware Files](https://github.com/sbcshop/Makerpad_Pro_Hardware/tree/main)
   * [Step File](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Mechanical%20Data/Makerpad%20Pro%203d%20step%20file.zip)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
