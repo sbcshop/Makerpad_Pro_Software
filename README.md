@@ -48,8 +48,23 @@ This GitHub provides getting started guides for Makerpad Pro.
 - Camera (OV2640) interfacing with ESP32
     | ESP32 | Camera | Function |
     |---|---|---|
-    |  |  | |
-    | 
+    | IO5  | D0/Y2  | Data Pin, for transferring image data from the camera to the ESP32 |
+    | IO18 | D1/Y3  | Data Pin |
+    | IO19 | D2/Y4  | Data Pin |
+    | IO21 | D3/Y5  | Data Pin |
+    | IO36 | D4/Y6  | Data Pin |
+    | IO39 | D5/Y7  | Data Pin |
+    | IO34 | D6/Y8  | Data Pin |
+    | IO35 | D7/Y9  | Data Pin |
+    | IO32 | XCLK | External Clock, for synchronizing data transfer |
+    | IO22 | PCLK | Pixel Clock, signals the start of each pixel's data |
+    | IO25 | VSYNC | Vertical Synchronization, marks the beginning of a new frame or image |
+    | IO23 | HREF | Horizontal Reference, indicates the start of a new line or row of pixels |
+    | IO26 | SSCB_SDA | Serial Data line for I2C bus communication, for camera configuration and control |
+    | IO27 | SSCB_SCL | Serial Clock line for I2C bus communication  |
+    | - | PWDN  | Power-Down Pin  |
+    | - | RESET  | Reset pin, connected to ESP reset pin |
+    
   
 - SDcard interfacing with ESP32
     | ESP32 | Display | Function |
@@ -93,14 +108,15 @@ This GitHub provides getting started guides for Makerpad Pro.
     |3V3 | 3.3V Positive Supply | 
     |GND | Ground Supply Pin |
     |5V  | 5V Positive Supply | 
-    |IO5 |  |
-    |IO18 | | 
-    |IO19 | |
-    |IO21 | |
-    |IO23 | |
-    |IO22 | |
-    |IO34 | |
-  
+    |IO5 | GPIO5, VSPICS0, HS1_DATA6, EMAC_RX_CLK |
+    |IO18 | GPIO18, VSPICLK, HS1_DATA7 | 
+    |IO19 | GPIO19, VSPIQ, U0CTS, EMAC_TXD0 |
+    |IO21 | GPIO21, VSPIHD, EMAC_TX_EN |
+    |IO23 | GPIO23, VSPID, HS1_STROBE |
+    |IO22 | GPIO22, VSPIWP, U0RTS, EMAC_TXD1 |
+    |IO34 | GPIO34, ADC1_CH6, RTC_GPIO4  |
+    
+    ***NOTE:** GPIO breakout can only be used when Camera not connected.
   
    
 ### 1. Configure and Setup Development Environment
