@@ -85,6 +85,8 @@ This GitHub provides getting started guides for Makerpad Pro.
 - GPIOs Breakout Pins (only when Camera not used)
   
   <img src="https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/GPIO_pin_Breakout.png" width="356" height="161">
+
+  <img src="https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/GPIO_pin_Breakout2.png" width="638" height="309">
   
     | ESP32 | Function |
     |---|---|
