@@ -153,16 +153,17 @@ This GitHub provides getting started guides for Makerpad Pro.
 
 
 ### 3. Testing First Code
-   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes]() in github which you can download and try. 
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples) in github which you can download and try. 
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on ESP32 of Makerpad Pro. Make sure to _press Boot button_ to begin upload process (in terminal you see message -> Connecting....____ ) as shown in below image.
      
      <img src="https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/code_upload_process.gif">
    - Checkout other examples below and build your own custom program codes using those references.
 
 ### Example Codes
-   - [Example 1]() : Display demo code
-   - [Example 2]() : Buzzer testing with display code
-   - and [Many more...]()
+   - [Example 1](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/BuzzerDemo) : Simple Buzzer test code
+   - [Example 2](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/Demo_3D_cube): Display Object demo code working with TFT_eSPI graphics library.
+   - [Example 3](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples/Demo_ClickPhoto) : Click Photos Demo code to test camera, touch and SD card combine.
+   - and [Many more...](https://github.com/sbcshop/Makerpad_Pro_Software/tree/main/examples)
 
    Now you are ready to try out your own codes, **_Happy Coding!_**
    
