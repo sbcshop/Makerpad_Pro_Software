@@ -115,7 +115,8 @@ This GitHub provides getting started guides for Makerpad Pro.
     |IO23 | GPIO23, VSPID, HS1_STROBE |
     |IO22 | GPIO22, VSPIWP, U0RTS, EMAC_TXD1 |
     |IO34 | GPIO34, ADC1_CH6, RTC_GPIO4  |
-  
+
+  **NOTE:** GPIO breakout pins are shared with the Camera, so only use one at a time.
    
 ### 1. Configure and Setup Development Environment
    - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. We have use Arduino IDE 1.8.19
