@@ -1,4 +1,6 @@
 # Makerpad_Pro_Software
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/SLIDERbanner.jpg?v=1695280064">
+
 MakerPad Pro is an ESP32-powered SmartScreen Hub with a 3.5-inch touchscreen display offering vivid visuals and a 2 MP camera for image related applications. Ideal for IoT projects and creative DIY electronics.
 
 This GitHub provides getting started guides for Makerpad Pro.
