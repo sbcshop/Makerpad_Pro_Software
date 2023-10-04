@@ -171,12 +171,12 @@ This GitHub provides getting started guides for Makerpad Pro.
 
    Now you are ready to try out your own codes, **_Happy Coding!_**
 
-<!--
-### 4. How to setup and use LVGL UI with Makerpad Pro
-  Follow below provided step by step guide to configure, develop and use LVGL UI on Makerpad Pro. To follow along instructions you can download install [Squareline Studio App](https://squareline.io/downloads). 
 
-[![Watch the video](https://github.com/sbcshop/LapPi_2.0_Unassembled/blob/main/images/LapPi2_assembly.png)](https://www.youtube.com/watch?v=cyu9svhStYQ)
--->
+### 4. How to setup and use LVGL UI with Makerpad Pro
+  Follow below provided step by step guide to configure, develop and use LVGL UI on Makerpad Pro. To follow along instructions you can download and install [Squareline Studio App](https://squareline.io/downloads). 
+
+[![Watch the video](https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/images/makerpadPro_LVGL_UI.png)](https://www.youtube.com/watch?v=ETHPJJxpnzg)
+
 
 
 ## Resources
