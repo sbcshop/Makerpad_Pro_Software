@@ -182,8 +182,8 @@ This GitHub provides getting started guides for Makerpad Pro.
 ## Resources
   * [Schematic](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Design%20Data/Sch%20Makerpad%20Pro.pdf)
   * [Hardware Files](https://github.com/sbcshop/Makerpad_Pro_Hardware/tree/main)
-  * [3D Case File](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Mechanical%20Data/Makerpad%20Pro%20Casing%20STL.rar)
-  * [Step File](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Mechanical%20Data/Makerpad%20Pro%203d%20step%20file.zip)
+  * [3D Case File](https://github.com/sbcshop/Makerpad_Pro_Hardware/tree/main/Mechanical%20Data/Makerpad%20Pro%20Casing%20STEP)
+  * [PCB 3D Step File](https://github.com/sbcshop/Makerpad_Pro_Hardware/blob/main/Mechanical%20Data/Makerpad%20Pro%203d%20step%20file.zip)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
   * [ILI9488_display_driver Datasheet](https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/documents/ILI9488_Data_Sheet.pdf)
   * [OV2640 Camera Datasheet](https://github.com/sbcshop/Makerpad_Pro_Software/blob/main/documents/OV2640_Datasheet.pdf)
